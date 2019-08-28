@@ -1,0 +1,60 @@
+html {
+    background-color: #000000;
+}
+
+.hero {
+    background-image: url(plutoHero.jpg);
+    height: 1000px;
+    background-size: cover;
+    margin: 0px;
+}
+
+.heroText {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    /* 
+   ↑ Centers the text ↑
+    */
+    font-size: 100px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.heroSubText {
+    text-align: center;
+    position: relative;
+    top: 40%;
+    transform: translateY(-30%);
+    /* 
+   ↑ Centers the text ↑
+    */
+    font-size: 40px;
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.history {
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+
+}
+
+.about {
+    color: white;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.sizeimg {
+    float: right
+}
